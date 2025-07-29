@@ -1,10 +1,10 @@
 # TPCL: Tri-modal Phase-aware Contrastive Learning for Multiphase CT, Clinical Data, and Medical Text Integration
 
 本项目实现了论文《TPCL: A Tri-modal Phase-aware Contrastive Learning Framework for Multiphase CT, Clinical Data, and Medical Text Integration》中提出的三模态期相感知对比学习框架（TPCL），用于多期相CT、结构化临床数据和医学文本的深度融合与肝细胞癌（HCC）辅助诊断。
+<img width="1038" height="721" alt="image" src="https://github.com/user-attachments/assets/c8df05f3-8d90-4c0e-b1c6-4c62dffa6c51" />
 
 ## 目录结构
 
-```
 .
 ├── base_config.py         # 配置文件，包含数据集路径、模型参数、特征定义等
 ├── clinical_vit.py        # 主模型实现（ClinicalViT），三模态融合及期相感知机制
