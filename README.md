@@ -4,8 +4,7 @@
 <img width="1038" height="721" alt="image" src="https://github.com/user-attachments/assets/c8df05f3-8d90-4c0e-b1c6-4c62dffa6c51" />
 
 ## 目录结构
-
-.
+```
 ├── base_config.py         # 配置文件，包含数据集路径、模型参数、特征定义等
 ├── clinical_vit.py        # 主模型实现（ClinicalViT），三模态融合及期相感知机制
 ├── data_loader.py         # 数据加载与预处理，支持多期相图像、临床数据、文本
